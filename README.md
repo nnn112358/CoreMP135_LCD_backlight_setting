@@ -29,7 +29,7 @@ Hex: 16
 Bi: 00000000000000000000000000010110
 Data written successfully.
 ```
-
+Personally, I think about 22 is good.
 
 # Reference
 M5Stack CoreMP135のI2C/SPI内部配線まとめ (上級開発者向け)<br>
