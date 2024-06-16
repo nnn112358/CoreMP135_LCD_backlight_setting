@@ -12,7 +12,7 @@ The LCD on the CoreMP135 is somewhat glaring, so a program was created to adjust
 CoreMP135のLCDバックライトはaxp2101のLDLO1と接続されており、LDLO1に設定する電圧によって、バックライトの明るさを設定することができます。<br>
 
 <img width="640" alt="image2" src="https://github.com/nnn112358/CoreMP135_LCD_backlight_setting/assets/27625496/a386b683-f3ab-48c8-bf3c-dae81d94dece"><br>
-<br>LDLO1は、レジスタのアドレスが0x99であり、レジスタに値を書き込むことで、100mVずつ設定することができます。
+AXP2101のLDLO1は、レジスタのアドレスが0x99であり、レジスタに値を書き込むことで、100mVずつ、0.5V～3.5Vの範囲で設定することができますが、FT6336Uの範囲を鑑みて0.5V～3.3Vで設定します<br>
 
 Cross Compile Enviroment
 ``` 
