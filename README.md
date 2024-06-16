@@ -3,7 +3,6 @@
 
 ![image](https://github.com/nnn112358/CoreMP135_LCD_backlight_setting/assets/27625496/310ec974-7242-4b90-bce0-5e204651ae7a)
 
-# Appendix
 CoreMP135のLCDバックライトの明るさはaxp2101のLDLO1から供給される電圧によって、設定することができます。<br>
 CoreMP135のLCDはややまぶしいため、LCDバックライトを調整できるプログラムを作成しました。<br>
 The brightness of the LCD backlight of the CoreMP135 can be set by the voltage supplied by the axp2101.<br>
